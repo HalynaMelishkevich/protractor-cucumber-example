@@ -88,6 +88,9 @@ npm install --save-dev cucumber
 `npm install cucumber-pretty `
 
 Then you need to add prettifier to cucumber format console option: 
+
+```
 cucumberOpts: { 
     format: './node_modules/cucumber-pretty' 
 } 
+```
